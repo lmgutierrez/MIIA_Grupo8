@@ -34,7 +34,7 @@ def predict_proba(Year, Mileage, State, Make, Model):
     print(new_ob)
     
     # Make prediction
-    p1 = clf.predict(new_ob))[0,1]
+    p1 = modelo.predict(new_ob)[0,1]
 
     return p1
 
