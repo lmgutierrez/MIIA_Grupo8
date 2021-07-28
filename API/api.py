@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from flask import Flask, request
-from m09_model_deployment import predict_proba
+from model_deployment import predict_proba
 
 app = Flask(__name__)
 
